@@ -51,7 +51,7 @@ body{
     height: 356px;
 }
 .blue-text{
-
+    box-sizing: border-box;
     width: 483.63px;
     height: 200px;
     margin: 0 auto;
@@ -60,13 +60,20 @@ body{
     color:white;
     padding: 19px 26px;
 }
-.blue-text p{
+.blue-text p:first-child{
+    margin: 0;
+    margin-bottom: 22px;
+    width: 430px;
+    height: 113px;
     font-size: 25px;
     text-align:left;
+    line-height: 130%;
+
     
 }
 .blue-text .author{
     font-size: 20px;
     text-align: right;
+    margin: 0;
 
 }
