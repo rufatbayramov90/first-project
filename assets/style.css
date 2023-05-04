@@ -54,11 +54,12 @@ body{
     box-sizing: border-box;
     width: 483.63px;
     height: 200px;
-    margin: 0 auto;
+    margin: 0 auto 136px auto;
     background: #1E4681;
     border-radius: 5px;
     color:white;
     padding: 19px 26px;
+
 }
 .blue-text p:first-child{
     margin: 0;
@@ -76,4 +77,35 @@ body{
     text-align: right;
     margin: 0;
 
+}
+.left-side h1{
+    font-size: 55px;
+    line-height: 101.38%;
+}
+.articles{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+.pler{
+    width: 662px;
+    height: 374px;
+    line-height: 150%;
+    font-size: 24px;
+}
+.articles img{
+    width: 314px;
+    height: 315px;
+    align-self:last baseline;
+}
+.about{
+    display: flex;
+    list-style: none;
+}
+.about span{
+    font-weight: 700;
+    font-size: 25px;
+}
+.about p{
+    font-size: 18px;
 }
